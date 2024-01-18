@@ -29,9 +29,11 @@ function reset() {
 
 
 
-send.addEventListener('click', () => {
+send.addEventListener('click', function() {
     setTimeout(() => {
-        pagerDisplay.innerHTML = `${phoneDisplay.innerHTML} <audio src="assets/pager.wav" autoplay></audio>`;
+        pagerDisplay.innerHTML = `
+        ${phoneDisplay.innerHTML} 
+        <audio src="assets/pager.wav" autoplay></audio>`;
         phoneDisplay.innerHTML = '';
     }, 1500);
 })
