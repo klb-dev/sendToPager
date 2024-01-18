@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Send To Pager</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section id="pager" class="pager">
+            <h1 class="pager-title">Pager</h1>
+            <div id="pager-display" class="pager-display"></div>
+        </section>
+
+        <main id="phone" class="phone">
+            <h1 class="phone-title">Phone</h1>
+            <div id="phone-display" class="phone-display"></div>
+            <div class="phone-buttons">
+                <button class="phone-button" data-number="1">1</button>
+                <button class="phone-button" data-number="2">2</button>
+                <button class="phone-button" data-number="3">3</button>
+                <button class="phone-button" data-number="4">4</button>
+                <button class="phone-button" data-number="5">5</button>
+                <button class="phone-button" data-number="6">6</button>
+                <button class="phone-button" data-number="7">7</button>
+                <button class="phone-button" data-number="8">8</button>
+                <button class="phone-button" data-number="9">9</button>
+                <button class="phone-button" data-number="*">*</button>
+                <button class="phone-button" data-number="0">0</button>
+                <button class="phone-button" data-number="#">#</button>
+            </div>
+            <button id="reset" class="reset">Reset</button>
+            <button id="send" class="send">Send</button>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
